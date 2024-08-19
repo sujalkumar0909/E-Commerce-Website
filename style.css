@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.inl{
+    padding:20px;
+    cursor:pointer;
+}
+.Logo{
+    width:50px;
+    margin:10px;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    box-shadow:1px 1px 20px black; 
+}
+.card{
+    margin-top:10px;
+    box-sizing:border-box;
+    box-shadow:1px 1px 20px black; 
+    width:200px;
+    margin-left:10px;
+    height:200pxpx
+}
+
+.dsabook{
+    width:100px;
+    margin-left:50px;
+}
+.btn{
+    padding:5px 10px;
+    background-color:blue;
+    color:white;
+    border:none;
+    cursor:pointer;
+    margin-left:55px;
+    border-radius:20px;
+    border:2px solid black;
+}
+p{
+    text-align:center;  
+    cursor: default;
+    font-size: 20px;
+}
+p:hover #hide {
+    max-width:100%;
+  }
+
+h2{
+    text-align:center;
+}
+#hide {
+    display: inline-block;
+    max-width: 0%;
+    vertical-align: bottom;
+    overflow-x: hidden;
+    white-space: nowrap;
+    transition: max-width 1s ease-in-out;
+  }
+  .main1{
+    position:absolute;
+    top: 69px;
+    right:220px;
+  }
+  .main2{
+    position:fixed;
+    left:420px;
+    top:69px
+  }
+  .footer{
+    position:fixed;
+    margin-top:100px;
+    left:10px;
+  }
+  .cart{
+    font-size:25px;
+    text-decoration:underline;
+    margin-bottom:10px;
+  }
+  .item1{
+    font-size:20px;
+  }
+  .price{
+    position:fixed;
+    left:500px;
+    font-size:20px;
+    bottom:20px
+  }
+  
